@@ -7,8 +7,8 @@ import React from 'react'
 const Navbar = () => {
   const {data:session} = useSession()
   return (
-    <header>
-      <div>
+    <header className='px-4 py-8'>
+      <div className='flex justify-between max-w-screen-xl mx-auto'>
         <Link href='/'>TaskManager</Link>
         <div>
           {session ? (
