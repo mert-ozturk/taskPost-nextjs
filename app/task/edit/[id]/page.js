@@ -56,7 +56,7 @@ const EditTask = (ctx) => {
           <div className='mb-4'>
         <SimpleMDE
         value={taskData.desc}
-        onChange={(value)=> setTaskData({...taskData,desc:e.target.value})}
+        onChange={(value)=> setTaskData({...taskData,desc: value})}
         />
         </div>
         <div className='mb-4'>
